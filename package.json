@@ -1,0 +1,13 @@
+{
+  "name": "ng-simple-zone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./libs/zone.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo":"node ./examples/basic.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
