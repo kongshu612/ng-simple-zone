@@ -4,6 +4,12 @@ In Angular, Zonejs is the basement.Angular depends on it to figure out if any ch
 # Why do we need Zone?
 zone help us to track the function exection. it can help us to execute some code before or after the function exection. If all our code is **Synchronous**, a simple `Function.bind/apply`can help. But, we may have the **Asynchronous** logic. So Zone help us to resolve this issue. it make the **Asynchronous call** works like **Synchronous**
 
+# How to play with this repo?
+- `git clone https://github.com/kongshu612/ng-simple-zone.git`
+- `npm run demo`
+
+you can find the entry from `libs/zone.js`, and you can find the usage example from `./examples/basic.js`
+
 # How does Zone track the **Asynchronous** exection?
 - Wrap, Actually Zone replace all the Asynchronous call. So from some sense, all our code becomes the Synchronous call.
 
@@ -69,5 +75,10 @@ function testInZone(){
 // end of message2
 ```
 we will see that the async part is running in the same context as the sync part
+
+## Support this package
+If you like this package, consider giving it a github star ⭐
+
+Also, PR's are welcome!
 
 
